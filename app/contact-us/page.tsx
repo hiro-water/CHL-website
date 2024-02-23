@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <div
-      className="flex border-2 border-gray-950 border-colour bg-red-500
+      className="flex border-2 border-gray-950 border-colour bg-purple-700
         "
     >
       <h1 className="p-5">
