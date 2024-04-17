@@ -11,10 +11,10 @@ export default function Home() {
       </div>
       <h6 className="text-7xl">
         {" "}
-        Not just comics, <br /> It's{" "}
+        Not just comics, <br /> It&#39;s{" "}
         <span className="font-style: italic font-black">CHC comix</span>{" "}
       </h6>
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial  before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic  after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]"></div>
+      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial  before:to-transparent before:blur-2xl before:content-[&#39;&#39;] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic  after:blur-2xl after:content-[&#39;&#39;] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]"></div>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left ">
         <a
           href="/store"
@@ -81,7 +81,7 @@ export default function Home() {
           </p>
         </a>
       </div>
-      <div className="relative flex place-items-left before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial  before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent  before:dark:opacity-10  after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+      <div className="relative flex place-items-left before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial  before:to-transparent before:blur-2xl before:content-[&#39;&#39;] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:blur-2xl after:content-[&#39;&#39;] before:dark:bg-gradient-to-br before:dark:from-transparent  before:dark:opacity-10  after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         <Image
           className="relative position: absolute; bottom: 0; left: 0; dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/DW productions.png"
