@@ -20,7 +20,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Link href="/">
-          <Image src="/CHL.png" width={175} height={175} alt="CHL Logo" />
+          <Image
+            src="/CHC.png"
+            width={175}
+            height={175}
+            alt="CHC Logo"
+            priority={true}
+          />
         </Link>
         {children}
       </body>
