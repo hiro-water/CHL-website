@@ -91,6 +91,13 @@ export default function Home() {
           priority
         />
       </div>
+      <a
+        href="/admin"
+        className="group rounded-lg border-2 border-zink-950 px-5 py-4 transition-colors hover:border-zink-950 hover:bg-slate-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+        rel="noopener noreferrer"
+      >
+        <h2 className={`mb-3 text-2xl font-semibold`}>ADMIN</h2>
+      </a>
     </main>
   );
 }

@@ -19,15 +19,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Link href="/">
-          <Image
-            src="/CHC.png"
-            width={175}
-            height={175}
-            alt="CHC Logo"
-            priority={true}
-          />
-        </Link>
+        <title>CHcomix</title>
+        <div className="w-40">
+          <Link href="/">
+            <Image
+              src="/CHC.png"
+              width={175}
+              height={175}
+              alt="CHC Logo"
+              priority={true}
+            />
+          </Link>
+        </div>
         {children}
         <Analytics />
       </body>
