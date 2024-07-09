@@ -23,10 +23,10 @@ export default function RootLayout({
         <div className="w-40">
           <Link href="/">
             <Image
-              src="/CHC.png"
+              src="/CHZ.png"
               width={175}
               height={175}
-              alt="CHC Logo"
+              alt="CHZ Logo"
               priority={true}
             />
           </Link>
