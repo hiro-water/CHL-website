@@ -39,7 +39,7 @@ export default function Icon() {
           color: "white",
         }}
       >
-        CHC
+        CHZ
       </div>
     ),
     // ImageResponse options
